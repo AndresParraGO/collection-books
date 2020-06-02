@@ -4,8 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Colección de Libros</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-  
+  <div class="container">
+    <h1 class="display-4 text-center">Mi colección de <span class="text-primary">libros</span></h1>
+
+    <form id="form-book">
+      <div class="form-group">
+        <label for="title">Titulo</label>
+        <input type="text" class="form-control" id="title">
+      </div>
+      <div class="form-group">
+        <label for="author">Autor</label>
+        <input type="text" class="form-control" id="author">
+      </div>
+      <div class="form-group">
+        <label for="isbn">Número #ISBN</label>
+        <input type="text" class="form-control" id="isbn">
+      </div>
+      <input type="submit" class="btn btn-success btn-block" value="Agregar Libro">
+    </form>
+
+    <h2 class="mt-5">Libros</h2>
+    <table class="table table-striped mt-2">
+      <thead>
+        <tr>
+          <th>Titulo</th>
+          <th>Autor</th>
+          <th>ISBN</th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody id="list-books"></tbody>
+    </table>
+  </div>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
