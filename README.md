@@ -1,6 +1,8 @@
 # 🚀 Collection Books
 Colletion Books, CRUD with JavaScript Vanilla using LocalStorage and POO.
 
+Project developed in the following course 👉  [https://www.udemy.com/course/javascript-moderno-para-principiantes/](https://www.udemy.com/course/javascript-moderno-para-principiantes/)
+
 ## Preview 
 
 Live Preview 👉 [https://andresparrago.github.io/collection-books/index.html](https://andresparrago.github.io/collection-books/index.html)
